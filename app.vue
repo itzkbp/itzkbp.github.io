@@ -1,5 +1,9 @@
 <template>
-  <div>
-    <h1>Welcome to my website.</h1>
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
+
+<script setup>
+provideHeadlessUseId(() => useId())
+</script>
