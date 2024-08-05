@@ -1,6 +1,6 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-    <div class="fixed w-full py-4 z-10 bg-white">
+    <div class="fixed w-full py-4 z-10 bg-white border-b border-solid border-gray-200">
         <HPopover>
             <div class="max-w-7xl mx-auto px-6">
                 <nav class="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
@@ -25,9 +25,9 @@
                     </div>
                     <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                         <span class="inline-flex rounded-md shadow">
-                            <NuxtLink href="/Kailash-Bandu-Poudel-CV.pdf"
+                            <a href="/Kailash-Bandu-Poudel-CV.pdf"
                                 class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50">
-                                Download CV </NuxtLink>
+                                Download CV </a>
                         </span>
                     </div>
                 </nav>
@@ -57,9 +57,9 @@
                                 class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
                                 {{ item.name }}</NuxtLink>
                         </div>
-                        <NuxtLink href="/Kailash-Bandu-Poudel-CV.pdf"
+                        <a href="/Kailash-Bandu-Poudel-CV.pdf"
                             class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100">
-                            Download CV </NuxtLink>
+                            Download CV </a>
                     </div>
                 </HPopoverPanel>
             </transition>

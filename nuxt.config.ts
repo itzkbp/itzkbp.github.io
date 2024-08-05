@@ -6,13 +6,6 @@ export default defineNuxtConfig({
 
   modules: ["@nuxt/content", "@nuxtjs/tailwindcss", "nuxt-headlessui", "@nuxt/image"],
 
-  app: {
-    head: {
-      link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }],
-      title: "Kailash B. Poudel - Portfolio Website",
-    },
-  },
-
   headlessui: {
     prefix: 'H',
   },
