@@ -9,4 +9,11 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss"
   ],
 
+  app: {
+    head: {
+      link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+      title: "Kailash B. Poudel - Portfolio Website",
+    },
+  },
+
 })
