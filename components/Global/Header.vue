@@ -6,7 +6,7 @@
                 <nav class="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
                     <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                         <div class="flex items-center justify-between w-full md:w-auto">
-                            <NuxtLink href="#">
+                            <NuxtLink href="/">
                                 <span class="sr-only">Kailash B. Poudel</span>
                                 <NuxtImg class="h-8 w-auto" src="/logo.png" alt="Kailash B. Poudel" />
                             </NuxtLink>
@@ -71,7 +71,7 @@
 import { Bars3Icon, MinusIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
-    { name: 'Education', href: '/education' },
+    { name: 'Home', href: '/' },
     { name: 'Experience', href: '/experience' },
     { name: 'Blogs', href: '/blogs' },
     { name: 'Projects', href: '/projects' },
