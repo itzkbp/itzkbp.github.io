@@ -27,7 +27,7 @@
                         <span class="inline-flex rounded-md shadow">
                             <a href="/Kailash-Bandu-Poudel-CV.pdf"
                                 class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50">
-                                Download CV </a>
+                                View CV </a>
                         </span>
                     </div>
                 </nav>
@@ -59,7 +59,7 @@
                         </div>
                         <a href="/Kailash-Bandu-Poudel-CV.pdf"
                             class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100">
-                            Download CV </a>
+                            View CV </a>
                     </div>
                 </HPopoverPanel>
             </transition>
