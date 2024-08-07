@@ -1,0 +1,3 @@
+<template>
+    Blog Home
+</template>

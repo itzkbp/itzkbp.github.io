@@ -73,7 +73,7 @@ import { Bars3Icon, MinusIcon } from '@heroicons/vue/24/outline'
 const navigation = [
     { name: 'Home', href: '/' },
     { name: 'Experience', href: '/experience' },
-    { name: 'Blogs', href: '/blogs' },
+    { name: 'Blogs', href: '/blog' },
     { name: 'Projects', href: '/projects' },
     { name: 'Contact', href: '/contact' },
 ]
