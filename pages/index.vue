@@ -1,3 +1,32 @@
+<!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error exercitationem minus animi atque accusamus culpa non expedita? Similique ea labore perferendis! Placeat similique facere quam accusamus harum rem, quos repellat error laborum quas aut sit cupiditate esse id recusandae ipsam. Cum consequuntur, voluptatum ipsa nostrum impedit doloribus repellendus autem inventore assumenda officia? Sit excepturi adipisci eum odit illum soluta eveniet cumque laborum aliquid ipsum dolorem quibusdam, dicta, minima magni animi eius esse quod nulla. Illum officia perspiciatis est ab aspernatur quam voluptatum consequuntur voluptates, ad impedit! Aut ipsam perspiciatis quis iste nostrum quibusdam autem quia facilis velit consequuntur possimus, omnis accusantium sapiente beatae, alias commodi veritatis, recusandae nobis magni. Deleniti, quos ab ea odio unde ullam, earum amet praesentium voluptatum corrupti assumenda repellendus, obcaecati architecto ut tempora vero recusandae? Qui quasi eligendi sed, sapiente velit ab unde molestiae dolor non quas itaque alias explicabo molestias enim dolore tempore vitae debitis quis possimus. Alias vero, itaque error pariatur dicta corporis ut exercitationem aliquam autem voluptate non ullam facilis saepe adipisci ducimus consectetur voluptas ab ex hic reprehenderit totam delectus! Consequatur doloribus sapiente dolore illum ab laborum! Modi repellat officiis pariatur quibusdam quaerat architecto! Expedita possimus iure est esse itaque beatae repellat exercitationem dignissimos voluptas aspernatur corporis explicabo doloremque libero quam blanditiis, eius maiores facilis tempora? Accusamus incidunt nobis sequi tempore ipsam reprehenderit. Qui blanditiis accusantium ducimus. Nesciunt veniam, excepturi odio nemo ab labore blanditiis optio porro officia, mollitia, debitis harum ex? Pariatur enim quibusdam mollitia voluptatem dolores. Sit necessitatibus, repudiandae distinctio temporibus sequi vel alias qui nam tempore quaerat, quae eaque fugiat modi, nisi consectetur velit magni explicabo? Impedit ullam voluptas exercitationem non quas maiores sunt laborum perferendis quis, excepturi ipsum. Est modi dolor eum praesentium quae earum facere eos hic dolores, et similique corporis magni laudantium ut nostrum distinctio dolore deleniti, labore vitae? Omnis sapiente, minima ea deleniti ducimus officia voluptates rem saepe provident distinctio? Inventore quam quasi tempore repudiandae rem magnam expedita nobis? Perferendis similique quisquam quis fuga nesciunt, tempore, temporibus laborum, est voluptatum atque eos quas! Rerum esse in eaque consequatur repellendus fugit libero! Harum neque quia earum ab ut corporis sed beatae, repellat rerum. Nihil velit eveniet dolores ut, rem aperiam at quis! Doloribus, nisi sint facere aliquid architecto doloremque non illo, ex magnam ipsam iure inventore eveniet laudantium fuga maiores nemo alias! Incidunt, vero molestiae sit itaque earum quae quos, sunt cum necessitatibus explicabo deserunt a.
-</template>
+    <div class="bg-white shadow overflow-hidden sm:rounded-lg mt-10">
+      <div class="px-4 py-5 sm:px-6">
+        <h3 class="text-lg leading-6 font-medium text-gray-900">About Me</h3>
+      </div>
+      <div class="border-t border-gray-200 px-4 py-5 sm:px-6">
+        <dl class="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2">
+          <div class="sm:col-span-1">
+            <dt class="text-sm font-medium text-gray-500">Full Name</dt>
+            <dd class="mt-1 text-sm text-gray-900">Poudel, Kailash Bandu</dd>
+          </div>
+          <div class="sm:col-span-1">
+            <dt class="text-sm font-medium text-gray-500">Interested in</dt>
+            <dd class="mt-1 text-sm text-gray-900">Software Engineering</dd>
+          </div>
+          <div class="sm:col-span-1">
+            <dt class="text-sm font-medium text-gray-500">Languages</dt>
+            <dd class="mt-1 text-sm text-gray-900">C/C++, Golang</dd>
+          </div>
+          <div class="sm:col-span-1">
+            <dt class="text-sm font-medium text-gray-500">Skills</dt>
+            <dd class="mt-1 text-sm text-gray-900">Web Development, Systems Programming</dd>
+          </div>
+          <div class="sm:col-span-2">
+            <dt class="text-sm font-medium text-gray-500">About</dt>
+            <dd class="mt-1 text-sm text-gray-900">Well, nothing much.</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </template>
